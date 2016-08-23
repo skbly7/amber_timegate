@@ -1,0 +1,2 @@
+cd timegate/
+uwsgi --http :9999 -s /tmp/mysock.sock --module timegate.application --callable application --ini timegate/conf/config.ini

@@ -1,0 +1,17 @@
+include *.py
+include *.rst
+include *.sh
+include .coveragerc
+include LICENSE
+include pytest.ini
+include timegate/conf/*.ini
+recursive-include conf *.ini
+recursive-include docs *.bat
+recursive-include docs *.png
+recursive-include docs *.py
+recursive-include docs *.rst
+recursive-include docs Makefile
+recursive-include examples *.py
+recursive-include tests *.py
+
+prune docs/_build
